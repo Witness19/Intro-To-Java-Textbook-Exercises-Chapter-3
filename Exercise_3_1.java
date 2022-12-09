@@ -24,14 +24,13 @@ public class Exercise_3_1 {
             double rootOne = ((-1 * b) + Math.sqrt(discriminant)) / (2 * a);
             double rootTwo = ((-1 * b) - Math.sqrt(discriminant)) / (2 * a);
 
-        // When the discriminant is positive, there will be two roots:
         if (discriminant >= 1) {  // If the discriminant is greater than or equal to one, then output both roots.
             System.out.print("The equation has two roots: " + "r1: " + rootOne + " & r2: " + rootTwo);
         }
-        if (discriminant == 0){ // && = Output the results if both statements are true.
+        if (discriminant == 0){ // If the discriminant equals zero, then the equation only has one root.
             System.out.print("The equation has one root: " + rootOne);
         }
-        if (discriminant <= -1) {
+        if (discriminant <= -1) { // If the discriminant is less than or equal to -1, then there are no real roots.
             System.out.print("The equation has no real roots");
         }
         input.close();   
