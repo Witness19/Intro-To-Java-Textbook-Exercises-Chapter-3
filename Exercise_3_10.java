@@ -14,7 +14,7 @@ public class Exercise_3_10 {
             int sum = one + two;
     
         Scanner input = new Scanner(System.in); // Create Scanner Object
-        System.out.print("Find the sum of the following three integers? " + one + " + " + two + " = "); //Prompt Input
+        System.out.print("Find the sum of the following two integers? " + one + " + " + two + " = "); //Prompt Input
         int total = input.nextInt(); // Read Input
     
             if (sum == total) {
